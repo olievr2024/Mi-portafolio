@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,600;0,700;1,400;1,500;1,800 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+max-width:1200px;
+margin: 0 auto;
+
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://as2.ftcdn.net/v2/jpg/05/25/06/33/1000_F_525063301_tDSsl6uY9yIlwNzDzONwqaILO3gYGHSP.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+} 
+
+.menu{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 700;
+}
+.menu .navbar ul li {
+ position: relative;
+ float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color:#4cf00b;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #ce967b
+
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor:pointer;
+    display: none;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #1c5c59;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: rgb(3, 3, 3);
+    padding: 0 150px;
+    margin-bottom: 25px;
+}
+
+
+.btn-1{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+.btn-1:hover{
+    background-color: rgb(13, 81, 102);
+}
+
+
+.celulares{
+    padding: 100px 0;
+    background-color:#46a76e;
+    position: relative;
+}
+
+.instalacion-content{
+    text-align: center;
+}
+.instalacion-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #2b3149;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+
+}
+.txt-p {
+    font-size: 16px;
+    color: #09090a;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+.herramienta-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.limpieza-1{
+    padding: 0 25px;
+}
+.limpieza-1 img{
+    width: 200px;
+
+}
+.celular-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.limpieza-1 h3{
+    color:#323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.services{
+    background-image: -o-linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)),
+url(https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Redmi_K50_concept_render_Huawei_P50_render_drdNBC_3.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding: 100px 0;
+
+}
+.services-content {
+    text-align: center;
+}
+.services-content h2{
+font-size: 55px;
+line-height: 70px;
+color:#f9fafc;
+text-transform: uppercase;
+margin-bottom: 50px;
+}
+
+.services-content p {
+    font-size: 16px;
+    color: rgb(31, 30, 29);
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.services-1{
+    padding:0 100px;
+}
+.services-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+.services-1 h3{
+    color:#EACCB3;
+    font-size: 18px;
+}
+
+
+.general{
+    display: flex;
+}
+.general-1{
+    width: 50%;
+    padding: 90px 50px;
+    background-color: #2c3f8d;
+}
+.general-2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe4KOnujobQOkDnhl1-z6yyuft4X-19Gsfnw&usqp=CAU);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
+}
+.general-3{
+    background-image: url(https://www.proandroid.com/wp-content/uploads/2018/02/1513588004_samsung-galaxy-s8-244-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
+}
+
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 16xp;
+    color: r#414247;
+    margin: 25 px 0 45px 0;
+}
+
+.blog{
+    padding: 100px 0;
+    text-align: center;
+}
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-1{
+    padding: 15px 55px;
+}
+.blog-1 img{
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+.blog-1 h3{
+    font-size: 20px;
+    color:blanchedalmond (100);
+}
+
+
+.footer{
+    padding: 90px 0;
+    background-color: black;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.link h3{
+    font-size: 12px;
+    color: rgb(110, 110, 139);
+    margin-bottom: 15px;
+
+}
+.link a{
+    font-size: 16px;
+    color: rgb(41, 37, 34);
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contact {
+    background-color: #33af943d;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #25bd64;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #badfaf;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-list {
+        flex-direction: column;
+    }
+    
+    .project {
+        flex-basis: 100%;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+}
